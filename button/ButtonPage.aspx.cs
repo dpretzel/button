@@ -13,9 +13,7 @@ namespace button
     {
         int clicks = 0;
         int total = 0;
-        //SqlConnection sqlCon = new SqlConnection(@"Server=tcp:buttonserver.database.windows.net,1433;Initial Catalog=buttonDatabase;Persist Security Info=False;User ID={africkel};Password={oops};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
-        SqlConnection sqlCon = new SqlConnection(@"Data Source=tcp:buttonserver.database.windows.net,1433;Initial Catalog=buttonDatabase;Integrated Security=False;User Id=africkel@buttonserver;Password=oops;Encrypt=True;TrustServerCertificate=False;MultipleActiveResultSets=True;");
-        //SqlConnection sqlCon = new SqlConnection(@"Data Source=tcp:buttonserver.database.windows.net,1433;Initial Catalog=buttonDatabase;Integrated Security=False;User Id=africkel@buttonserver;Password=oops;Encrypt=True;TrustServerCertificate=False;MultipleActiveResultSets=True;");
+        SqlConnection sqlCon = new SqlConnection(@"Data Source=tcp:buttonserver.database.windows.net,1433;Initial Catalog=buttonDatabase;Integrated Security=False;User Id=oops@buttonserver;Password=oops;Encrypt=True;TrustServerCertificate=False;MultipleActiveResultSets=True;");
 
 
         protected void Page_Load(object sender, EventArgs e)
