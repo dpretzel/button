@@ -27,12 +27,12 @@ namespace button
             }
         }
 
-        protected void txtName_TextChanged(object sender, EventArgs e)
+        public static int testy()
         {
-
+            return 69;
         }
 
-        protected void btnAdd_Click(object sender, EventArgs e)
+        public void btnAdd_Click(object sender, EventArgs e)
         {
             //lblCount.Text = (++count).ToString();
             if(int.TryParse(btnAdd.Text, out clicks))

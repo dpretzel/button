@@ -20,7 +20,7 @@
 			<table>
 				<tr>
 					<td>
-						<asp:TextBox ID="txtName" runat="server" OnTextChanged="txtName_TextChanged" MaxLength="16" placeholder="Name"></asp:TextBox>
+						<asp:TextBox ID="txtName" runat="server" MaxLength="16" placeholder="Name"></asp:TextBox>
 					</td>
 					<td colspan="2">
 						<asp:Button ID="btnAdd" runat="server" OnClick="btnAdd_Click" />
